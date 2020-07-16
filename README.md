@@ -1,12 +1,20 @@
 # PUBG Placement Prediction
 ## CS 7641 Team 6: Jas Pyneni, Hemanth Chittanuru, Kavin Krishnan, Vishal Vijaykumar, Rafael Hanashiro
 
+[Click here for presentation website](https://jpyneni3.github.io/PUBG-Placement-Prediction-Presentation/)
 ---
 <p align="center">
   <img src="https://storage.googleapis.com/kaggle-media/competitions/PUBG/PUBG%20Inlay.jpg">
 </p>
 
-# 1. Overview
+### Table of Contents
+**[1) Overview](#1-overview)**<br>
+**[2) Data Pre-Processing/Cleaning](#2-data-exploration)**<br>
+**[3) Pre-processing](#3-pre-processing)**<br>
+**[4) Modeling, Experimenting & Results](#3-pre-processing)**<br>
+
+
+## 1. Overview
 PUBG is a battle-royale video game where 100 players battle on a game map by rummaging for weapons and tools and fighting until there is only one surviving player or team. Initially a Kaggle competition, the purpose of this project is to predict the final placement of a given player based off of game stats. This is an interesting project for our group because it is a game we all love to play. We hope that by applying the skills we learned this semester in CS 7641, we can learn the best way to maximize our chances of winning our future matches.  So far, winning has been determined by starting randomly and employing different in-game tactics, but by doing this project, we can learn with ML how to win.
 
 
@@ -17,7 +25,7 @@ We aim to do this through the following steps:
 2. Pre-process and engineer the features
 3. Model the data and build a prediction engine
 
-# 2. Data Exploration
+## 2. Data Exploration
 
 ### Dataset: PUBG Match Placement Data
 #### Collected from [Kaggle](https://www.kaggle.com/c/pubg-finish-placement-prediction/data)
@@ -114,7 +122,7 @@ Based off my experience with the game, I know that people that can destroy vehic
 </p>
 
 
-# 3. Pre-processing
+## 3. Pre-processing
 
 Based off the above visualizations, we can see that certain features definitely give us a lot of information while others provide no input in terms of our target variable. This allows us to have a basis for using the data and also shows that the data we have is indeed valuable data. This means the next step is deriving the actual value from that data.
 
@@ -151,7 +159,7 @@ The other dimensionality reduction method we're using is random projection, spec
 
 Looking at these graphs and the error values, we see that the error evens out at 34 components.
 
-# 4. Modeling, Experimenting & Results
+## 4. Modeling, Experimenting & Results
 
 
 ### a. Gradient Boosting
