@@ -9,9 +9,9 @@
 
 ### Table of Contents
 **[1) Overview](#1-overview)**<br>
-**[2) Data Pre-Processing/Cleaning](#2-data-exploration)**<br>
+**[2) Data Exploration](#2-data-exploration)**<br>
 **[3) Pre-processing](#3-pre-processing)**<br>
-**[4) Modeling, Experimenting & Results](#3-pre-processing)**<br>
+**[4) Modeling, Experimenting & Results](#4-modeling-experimenting--results)**<br>
 
 
 ## 1. Overview
